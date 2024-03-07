@@ -1258,7 +1258,7 @@ input[type=color] {
   overflow: hidden;
   border-radius: 10px;
   text-transform: capitalize;
-  border-bottom: 3px solid var(--tp-theme-1);
+  border-bottom: 3px solid #ffffff;
   box-shadow: 0px 2px 55px rgba(168, 182, 218, 0.32);
 }
 @media (max-width: 767px) {
@@ -1279,7 +1279,7 @@ input[type=color] {
 }
 .tp-btn-white-border::before, .tp-btn-white-border::after {
   content: "";
-  background: var(--tp-theme-1);
+  background: #F26722;
   height: 50%;
   width: 0;
   position: absolute;
@@ -15766,7 +15766,7 @@ blockquote cite::before {
   color: var(--tp-common-white);
   text-align: center;
   cursor: pointer;
-  background: var(--tp-theme-1);
+  background: #F26722;
   transition: 1s ease;
   border: none;
 }
